@@ -23,7 +23,7 @@ spec:
       containers:
         - name: polybot
           # image: 854171615125.dkr.ecr.us-east-1.amazonaws.com/deepanshurawat6-polybot:0.1.0
-          image: aryanshrana/polybot:1.1.1-${{github.run_number}}
+          image: aryanshrana/polybot:1.1.1
           resources:
             requests:
               cpu: 500m
